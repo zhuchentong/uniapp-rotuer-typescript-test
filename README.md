@@ -1,4 +1,4 @@
-# xbt-store-webapp
+# uni-simply-router test for typescript
 
 ## Project setup
 ```
