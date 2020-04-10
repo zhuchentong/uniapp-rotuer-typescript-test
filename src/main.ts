@@ -1,6 +1,12 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
 
-Vue.config.productionTip = false
+import { RouterMount } from "uni-simple-router";
 
-new App().$mount()
+Vue.config.productionTip = false;
+
+const app = new Vue({
+  render: h => h(App)
+});
+
+RouterMount(app, "#app");
