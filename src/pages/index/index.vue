@@ -2,7 +2,7 @@
   <view class="content">
     <image
       class="logo"
-      @click="$Router.push({ name: 'index' })"
+      @click="$Router.push({ name: 'index2' })"
       src="/static/logo.png"
     ></image>
     <view>
